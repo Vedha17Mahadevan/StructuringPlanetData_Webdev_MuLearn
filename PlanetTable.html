@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar System Planets</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-gray-50 p-6">
+  <div class="max-w-7xl mx-auto">
+    <!-- Header Section -->
+    <div class="text-center mb-12">
+      <h1 class="text-5xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
+        Solar System Planets
+      </h1>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+        Explore the fascinating worlds of our solar system with detailed information about each planet's characteristics and properties.
+      </p>
+    </div>
+
+    <!-- Table Container -->
+    <div class="overflow-hidden rounded-xl border border-gray-300 shadow-lg">
+      <div class="overflow-x-auto">
+        <table class="w-full bg-white">
+          <thead>
+            <tr class="border-b bg-gray-100">
+              <th class="px-6 py-4 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider">Planet</th>
+              <th class="px-6 py-4 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider">Distance from Sun</th>
+              <th class="px-6 py-4 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider">Diameter</th>
+              <th class="px-6 py-4 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider">Mass</th>
+              <th class="px-6 py-4 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider">Moons</th>
+              <th class="px-6 py-4 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider">Orbital Period</th>
+              <th class="px-6 py-4 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider">Rings</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+            <!-- Planet Rows -->
+            <tr class="hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-full bg-gradient-to-r from-orange-400 to-red-500"></div>
+                <span class="text-base font-medium text-gray-800">Mercury</span>
+              </td>
+              <td class="px-6 py-4 text-sm text-gray-600">58 million km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">4,879 km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">3.3 × 10²³ kg</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-2 py-1 rounded-full bg-blue-100 text-blue-800 font-medium">0</span></td>
+              <td class="px-6 py-4 text-sm text-gray-600">88 days</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-3 py-1 rounded-full bg-gray-200 text-gray-700 text-xs font-medium">None</span></td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-full bg-gradient-to-r from-yellow-400 to-orange-500"></div>
+                <span class="text-base font-medium text-gray-800">Venus</span>
+              </td>
+              <td class="px-6 py-4 text-sm text-gray-600">108 million km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">12,104 km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">4.87 × 10²⁴ kg</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-2 py-1 rounded-full bg-blue-100 text-blue-800 font-medium">0</span></td>
+              <td class="px-6 py-4 text-sm text-gray-600">225 days</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-3 py-1 rounded-full bg-gray-200 text-gray-700 text-xs font-medium">None</span></td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-full bg-gradient-to-r from-blue-500 to-green-500"></div>
+                <span class="text-base font-medium text-gray-800">Earth</span>
+              </td>
+              <td class="px-6 py-4 text-sm text-gray-600">150 million km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">12,756 km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">5.97 × 10²⁴ kg</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-2 py-1 rounded-full bg-blue-100 text-blue-800 font-medium">1</span></td>
+              <td class="px-6 py-4 text-sm text-gray-600">365 days</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-3 py-1 rounded-full bg-gray-200 text-gray-700 text-xs font-medium">None</span></td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-full bg-gradient-to-r from-red-500 to-orange-600"></div>
+                <span class="text-base font-medium text-gray-800">Mars</span>
+              </td>
+              <td class="px-6 py-4 text-sm text-gray-600">228 million km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">6,792 km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">6.42 × 10²³ kg</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-2 py-1 rounded-full bg-blue-100 text-blue-800 font-medium">2</span></td>
+              <td class="px-6 py-4 text-sm text-gray-600">687 days</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-3 py-1 rounded-full bg-gray-200 text-gray-700 text-xs font-medium">None</span></td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-full bg-gradient-to-r from-yellow-600 to-orange-700"></div>
+                <span class="text-base font-medium text-gray-800">Jupiter</span>
+              </td>
+              <td class="px-6 py-4 text-sm text-gray-600">778 million km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">142,984 km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">1.90 × 10²⁷ kg</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-2 py-1 rounded-full bg-blue-100 text-blue-800 font-medium">95</span></td>
+              <td class="px-6 py-4 text-sm text-gray-600">12 years</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-medium">Faint</span></td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-full bg-gradient-to-r from-yellow-500 to-amber-600"></div>
+                <span class="text-base font-medium text-gray-800">Saturn</span>
+              </td>
+              <td class="px-6 py-4 text-sm text-gray-600">1.43 billion km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">120,536 km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">5.68 × 10²⁶ kg</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-2 py-1 rounded-full bg-blue-100 text-blue-800 font-medium">146</span></td>
+              <td class="px-6 py-4 text-sm text-gray-600">29 years</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-3 py-1 rounded-full bg-green-100 text-green-800 text-xs font-medium">Prominent</span></td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-full bg-gradient-to-r from-cyan-400 to-blue-500"></div>
+                <span class="text-base font-medium text-gray-800">Uranus</span>
+              </td>
+              <td class="px-6 py-4 text-sm text-gray-600">2.87 billion km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">51,118 km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">8.68 × 10²⁵ kg</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-2 py-1 rounded-full bg-blue-100 text-blue-800 font-medium">27</span></td>
+              <td class="px-6 py-4 text-sm text-gray-600">84 years</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-medium">Narrow</span></td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-full bg-gradient-to-r from-blue-600 to-indigo-700"></div>
+                <span class="text-base font-medium text-gray-800">Neptune</span>
+              </td>
+              <td class="px-6 py-4 text-sm text-gray-600">4.50 billion km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">49,528 km</td>
+              <td class="px-6 py-4 text-sm text-gray-600">1.02 × 10²⁶ kg</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-2 py-1 rounded-full bg-blue-100 text-blue-800 font-medium">16</span></td>
+              <td class="px-6 py-4 text-sm text-gray-600">165 years</td>
+              <td class="px-6 py-4 text-sm"><span class="inline-flex px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-medium">Faint</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Footer Information -->
+    <div class="mt-12 text-center">
+      <p class="text-sm text-gray-500">Data source: NASA and International Astronomical Union (IAU)</p>
+      <p class="text-xs text-gray-400 mt-2">Last updated: 2024 | Distances are average orbital distances</p>
+    </div>
+  </div>
+</body>
+</html>
